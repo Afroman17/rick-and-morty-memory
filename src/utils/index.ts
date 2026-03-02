@@ -1,15 +1,15 @@
-export enum Images {
-  Logo = '/logo1.png',
-  CardBack = '/ricky_morty_img.png',
-}
+export const Images = {
+  Logo: '/logo1.png',
+  CardBack: '/ricky_morty_img.png',
+} as const
 
-export enum QueryKeys {
-  Characters = 'characters',
-}
+export const QueryKeys = {
+  Characters: 'characters',
+} as const
 
-export enum Routes {
-  Login = '/login',
-  Home = '/',
-  Game = '/game',
-  Result = '/result',
-}
+export const Routes = {
+  Login: '/login',
+  Home: '/',
+  Game: '/game',
+  Result: '/result',
+} as const
