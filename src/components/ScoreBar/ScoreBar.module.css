@@ -1,0 +1,11 @@
+.bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4px var(--spacing-sm);
+}
+
+.item {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}

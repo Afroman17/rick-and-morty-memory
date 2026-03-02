@@ -1,0 +1,35 @@
+.page {
+  min-height: 100vh;
+  background-color: var(--bg-dark);
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  background-color: var(--bg-container);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  padding: var(--spacing-md);
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+  flex: 1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-sm);
+}
+
+.loadingWrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loadingText {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-gray);
+}
