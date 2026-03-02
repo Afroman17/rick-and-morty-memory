@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  padding: 20px 0;
+  flex-shrink: 0;
+}
+
+.logo {
+  width: auto;
+  height: 100px;
+  object-fit: contain;
+}
+
+.badge {
+  background-color: var(--color-lime);
+  color: var(--text-dark);
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 4px 20px;
+  border-radius: 999px;
+}
