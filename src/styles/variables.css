@@ -1,0 +1,45 @@
+:root {
+  /* Backgrounds */
+  --bg-dark: #1C1D3B;
+  --bg-container: #FFFAC2;
+  --bg-card-back: #b0d8e8;
+  --bg-white: #ffffff;
+  --bg-error: #fff5f5;
+
+  /* Brand colors */
+  --color-teal: #007878;
+  --color-cyan: #aaddee;
+  --color-lime: #c8e64a;
+  --color-game: #A2F2F9;
+  --color-game-border: #D8E054;
+
+  /* Border colors */
+  --color-border-input: #212C31;
+  --color-error-border: #fed7d7;
+
+  /* Error */
+  --color-error: #e53e3e;
+
+  /* Text */
+  --text-dark: #1C1D3B;
+  --text-black: #000000;
+  --text-navy: #233A59;
+  --text-label: #313D49;
+  --text-link: #465669;
+  --text-gray: #666666;
+  --text-white: #ffffff;
+
+  /* Typography */
+  --font-primary: 'Montserrat', sans-serif;
+
+  /* Border radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  /* Spacing */
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 48px;
+}
